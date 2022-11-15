@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Iphone 13 PRO MAX",
+        "price": 1300,
+        "thumbnail" : "https://res.cloudinary.com/ddaxzsv93/image/upload/v1667746960/iphone_13_pro_max_dprmv1.webp",
+        "id" : 1
+    }
+
+    {
+        "title": "Iphone 14",
+        "price": 1400,
+        "thumbnail" : "https://res.cloudinary.com/ddaxzsv93/image/upload/v1667746961/iphone_14_or5wwa.jpg",
+        "id" : 2
+    }
+
+    {
+        "title": "Iphone 14 PRO",
+        "price": 1600,
+        "thumbnail" : "https://res.cloudinary.com/ddaxzsv93/image/upload/v1667746960/iphone_14_pro_tahynf.jpg",
+        "id" : 3
+    }
+
+
+]
