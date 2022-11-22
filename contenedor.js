@@ -66,14 +66,14 @@ class Contenedor {
 
 
     deleteAll = async() => {
-        this.writeFile([]);
+     this.writeFile([]);
     }
 
 
 }
 
 
-const products = new Contenedor('productos.txt');
+const products = new Contenedor('products.txt');
 
 const prueba = async () => {
     let save = await products.save({
