@@ -22,14 +22,13 @@ class Contenedor {
             const productos = await fs.promises.readFile(this.file, 'utf-8');
             return JSON.parse(productos);
         }catch(err){
-            if(err.mesage.includes('no such file or directory')) return [];
             console.log(`error: ${err}`)
         }
     }
 
 
     save = async obj => {
-        let productos = this.getAll();
+        let productos = await this.getAll();
         try{
             let newId;
             productos.length === 0 ? newId = 1 : newId = productos[productos.length-1].id + 1;
@@ -96,3 +95,5 @@ const prueba = async () => {
 }
 
 prueba();
+
+module.exports = Contenedor;

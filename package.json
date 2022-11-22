@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "backend-desafio-3",
+  "version": "1.0.0",
+  "main": "contenedor.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PBoschini/Backend-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PBoschini/Backend-/issues"
+  },
+  "homepage": "https://github.com/PBoschini/Backend-#readme",
+  "description": ""
 }
